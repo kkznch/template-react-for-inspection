@@ -1,0 +1,8 @@
+{
+  "name": "learn-react-without-create-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/kkznch/learn-react-without-create-react-app.git",
+  "author": "kkznch <kkznch710md@gmail.com>",
+  "license": "MIT"
+}
