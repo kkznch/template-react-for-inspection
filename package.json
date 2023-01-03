@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/kkznch/learn-react-without-create-react-app.git",
   "author": "kkznch <kkznch710md@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0"
+  }
 }
