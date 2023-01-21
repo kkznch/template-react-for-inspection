@@ -1,6 +1,7 @@
 import React from 'react';
+import type { FC } from 'react';
 
-const App = () => {
+const App: FC = () => {
   return <h1>Hello, world!</h1>;
 };
 
