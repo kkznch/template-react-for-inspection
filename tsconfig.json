@@ -10,5 +10,8 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": ["./src/*"],
+    }
   },
 }
