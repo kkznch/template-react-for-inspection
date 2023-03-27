@@ -4,8 +4,8 @@ import pluginPrettier from 'eslint-config-prettier';
 import pluginImport from 'eslint-plugin-import';
 import pluginReact from 'eslint-plugin-react';
 import reactConfigRecommended from 'eslint-plugin-react/configs/recommended.js';
-import pluginUnusedImport from 'eslint-plugin-unused-imports';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
+import pluginUnusedImport from 'eslint-plugin-unused-imports';
 
 export default [
   {
