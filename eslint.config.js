@@ -69,6 +69,15 @@ export default [
           'newlines-between': 'never',
         },
       ],
+
+      /**
+       * typescriptで同等のチェックがされているので、下記はオフにする
+       * https://github.com/typescript-eslint/typescript-eslint/blob/1c1b572c3000d72cfe665b7afbada0ec415e7855/docs/getting-started/linting/FAQ.md#eslint-plugin-import
+       */
+      'import/named': 'off',
+      'import/namespace': 'off',
+      'import/default': 'off',
+      'import/no-named-as-default': 'off',
     },
   },
 ];
