@@ -3,6 +3,7 @@ import typescriptParser from '@typescript-eslint/parser';
 import pluginPrettier from 'eslint-config-prettier';
 import pluginImport from 'eslint-plugin-import';
 import pluginReact from 'eslint-plugin-react';
+import reactConfigJsxRuntime from 'eslint-plugin-react/configs/jsx-runtime.js';
 import reactConfigRecommended from 'eslint-plugin-react/configs/recommended.js';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
 import pluginUnusedImport from 'eslint-plugin-unused-imports';
@@ -46,6 +47,7 @@ export default [
     rules: {
       ...pluginImport.configs['recommended'].rules,
       ...reactConfigRecommended.rules,
+      ...reactConfigJsxRuntime.rules,
       ...pluginPrettier.rules,
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
